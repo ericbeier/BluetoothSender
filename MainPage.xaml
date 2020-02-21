@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="blSender.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:blSender"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button Content="Button" Height="117" Margin="565,656,0,0" VerticalAlignment="Top" Width="450" Click="Button_Click"/>
+        <TextBox x:Name="tb1" HorizontalAlignment="Center" Height="205" Margin="0,340,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="598"/>
+
+    </Grid>
+</Page>
